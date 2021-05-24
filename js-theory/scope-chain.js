@@ -1,9 +1,8 @@
 function a(){
-    var b= 10;
-    // c();
-    // function c(){
-    // }
+    var c= 10;
+    console.log(b);
+
 }
-// var b=10;
+var b=10;
 a();
-console.log(b);
+// console.log(b);
