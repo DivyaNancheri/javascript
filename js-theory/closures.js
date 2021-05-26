@@ -22,8 +22,8 @@ function x() {
   return y;
 }
 var z = x();
-console.log(z); // 100 becoz the in the lexical scope not the value 7 is returned but the reference to variable a will be shared
-z();
+console.log(z); 
+z(); // 100 becoz in the lexical scope not the value 7 is returned but the reference to variable a will be shared
 
 // 2
 function x() {
@@ -44,7 +44,7 @@ var z=x(); // after assiging to z the function x is deleted.
 console.log(z);
 z()
 
-1
+// 1
 function x() {
     var a=7;
     function y(){
