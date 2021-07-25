@@ -18,7 +18,7 @@ var getName = () => {
     console.log("Namaste Javascript");
 } 
 
-//Hoisting is a phenomemno in JS by which you can access the variables
+//Hoisting is a phenomemnon in JS by which you can access the variables
 //  and functions even before they are initialized. We can access them without getting any error
 
 /*
