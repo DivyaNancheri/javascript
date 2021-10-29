@@ -5,6 +5,7 @@ let name = {
     console.log(this.firstName + " " + this.lastName);
   },
 };
+
 name.printFullName();
 
 let name2 = {
